@@ -1,0 +1,160 @@
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 1100px;
+    margin: auto;
+    height: 72px;
+    border-radius: 6px;
+    margin-top: 120px;
+    box-shadow: 2px 2px 20px 2px #00000016;
+}
+.clearBTN{
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    color: #5CA5A5;
+    cursor: pointer;
+}
+.jobs{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 152px;
+    margin-top: 24px;
+    box-shadow: 2px 2px 20px 2px #00000016;
+    border-radius: 6px;
+    border-left: 6px solid transparent;
+    transition: border-left 0.3s ease-in-out;
+}
+.job:hover{
+    border-left-color: #5CA5A5;
+}
+.job-left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.company-title{
+    margin-left: 20px;
+    color: #5CA5A5;
+    font-size: 18px;
+    font-weight: 700;
+}
+.infoHeader{
+    display: flex;
+    align-items: center;
+}
+.new-job{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #5CA5A5;
+    padding: 6px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.featured-job{
+    margin-left: 20px;
+    text-transform: uppercase;
+    background-color: #2B3939;
+    color: #FFFFFF;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.job-position{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.info-footer{
+    display: flex;
+    margin-top: 10px;
+    color: #7C8F8F;
+    font-weight: 500;
+    font-size: 14px;
+}
+.extra{
+    margin-left: 20px;
+}
+.circle{
+    background-color: #000000;
+    width: 4px;
+    height: 4px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.job-right{
+    display: flex;
+    align-items: center;
+}
+.propBTN{
+    display: flex;
+    margin-right: 20px;
+    border: none;
+    background-color: #EFFAFA;
+    padding: 6px;
+    border-radius: 6px;
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 16px;
+    color: #5CA5A5; 
+    cursor: pointer;   
+}
+.propBTN:hover{
+    background-color: #5CA5A5;
+    color: #FFFFFF;
+}
+.choiceBTNS{
+    display: flex;
+    flex-direction: row;
+}
+.filterBTN{
+    margin-left: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 6px;
+    background-color: #EFFAFA;
+    color: #5CA5A5;
+}   
+.removeIconBox{
+    background-color: #5CA5A5;
+    padding: 6px;
+    margin-left: 10px;
+    border-radius: 0 6px 6px 0px;
+    cursor: pointer;
+}
+.removeIconBox:hover{
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 667px) {
+    
+.jobs{
+    width: 327px;
+    height: 2500px;
+}
+img{
+    margin-bottom: 150px;
+    width: 48px;
+
+}
+
+}
